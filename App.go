@@ -1,12 +1,12 @@
 package main
 
 import (
-	"time"
-	"net/http"
 	"fmt"
-	"strconv"
 	"github.com/go-telegram-bot-api/telegram-bot-api"
+	"net/http"
 	"os"
+	"strconv"
+	"time"
 )
 
 var WEBSITE_TO_MONITOR = os.Getenv("WEBSITE_TO_MONITOR")
